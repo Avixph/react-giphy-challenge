@@ -1,4 +1,4 @@
-export default function LoadingGiphy() {
+export default function LoadingGif() {
   return (
     <div className="app-laoding">
       <h2>
