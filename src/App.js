@@ -3,7 +3,10 @@ import "./App.css";
 import Giphy from "./components/Giphy";
 import Header from "./components/Header";
 import SearchGiphy from "./components/SearchGiphy";
-/* 
+
+
+function App() {
+  /* 
  * Perhaps some hints?
  *
  * 1. use the useState hook
@@ -15,10 +18,11 @@ remember to use useEffect
  */
 // remember to use hooks for your state
 // putting the method below in useEffect
-function fetchRandomGif() {
+ fetchRandomGif() {
   // declare a url variable for the Giphy API endpoint
   // get a random gif!
   // set state with the data you've fetched from the API to allGifs
+  }
 
   return (
     <div className="App">
@@ -28,6 +32,7 @@ function fetchRandomGif() {
       <Giphy />
     </div>
   );
+
 }
 
 export default App;
